@@ -1,3 +1,17 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/W7bqK6NI)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=19977857)
-# CS150-Capstone
+# InventoryApp – Phase 1
+
+## Summary
+This is the first phase of my C++ capstone project. I created a class named `Item` to represent a single inventory item. It has a name and quantity, with full getter/setter support and overloaded operators for comparison and output.
+
+## Files
+- `Item.h` – Class definition
+- `Item.cpp` – Class implementation
+- `main.cpp` – Test driver
+
+## Resources Used
+- ChatGPT (for planning structure and debugging tips)
+- cplusplus.com for syntax reference
+- Instructor lectures and Canvas materials
+
+## Notes
+The part that went well was writing the class and testing in main. The only challenge was deciding which operators to overload at first.
