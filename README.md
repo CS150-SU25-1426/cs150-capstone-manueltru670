@@ -1,17 +1,28 @@
-# InventoryApp – Phase 1
+# Surfboard Inventory Management Application
 
-## Summary
-This is the first phase of my C++ capstone project. I created a class named `Item` to represent a single inventory item. It has a name and quantity, with full getter/setter support and overloaded operators for comparison and output.
+## Overview
+This application allows users to manage a surfboard inventory system. It includes functionality to add, edit, delete, and view surfboards. Each surfboard has properties like brand, model, size dimensions, quantity, and price. 
 
 ## Files
-- `Item.h` – Class definition
-- `Item.cpp` – Class implementation
-- `main.cpp` – Test driver
+- `item.h` – Defines the `Item` class (surfboard).
+- `item.cpp` – Implements the `Item` class methods and operator overloads.
+- `main.cpp` – Contains the menu-driven program to manage inventory.
+- `readme.md` – This file.
+
+## Functionalities
+- Add new surfboard
+- Edit existing surfboard by ID
+- Delete surfboard by ID
+- View all inventory
+
+## Operator Overloads
+- `operator==` for comparing IDs
+- `operator<<` for formatted printing
 
 ## Resources Used
-- ChatGPT (for planning structure and debugging tips)
-- cplusplus.com for syntax reference
-- Instructor lectures and Canvas materials
+- ChatGPT (OpenAI) for code guidance and clarification
+- StackOverflow for syntax references
+- C++ documentation (cplusplus.com)
 
-## Notes
-The part that went well was writing the class and testing in main. The only challenge was deciding which operators to overload at first.
+## Reflection
+This project helped reinforce my understanding of classes, file separation, vectors, and operator overloading. A challenge was managing vector deletion and ensuring objects were found by ID. Now that it's working, the menu is clean and intuitive.
