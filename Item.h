@@ -9,33 +9,33 @@ private:
     int id;
     std::string brand;
     std::string model;
-    double length;
-    double width;
-    double thickness;
+    double engineSize;     // in cc
+    double seatHeight;     // in inches
+    double weight;         // in lbs
     int quantity;
     double price;
 
 public:
     // Constructors
     Item();
-    Item(int id, std::string brand, std::string model, double length, double width, double thickness, int quantity, double price);
+    Item(int id, std::string brand, std::string model, double engineSize, double seatHeight, double weight, int quantity, double price);
 
     // Getters
     int getId() const;
     std::string getBrand() const;
     std::string getModel() const;
-    double getLength() const;
-    double getWidth() const;
-    double getThickness() const;
+    double getEngineSize() const;
+    double getSeatHeight() const;
+    double getWeight() const;
     int getQuantity() const;
     double getPrice() const;
 
     // Setters
     void setBrand(const std::string& b);
     void setModel(const std::string& m);
-    void setLength(double l);
-    void setWidth(double w);
-    void setThickness(double t);
+    void setEngineSize(double e);
+    void setSeatHeight(double s);
+    void setWeight(double w);
     void setQuantity(int q);
     void setPrice(double p);
 
@@ -46,4 +46,4 @@ public:
     friend std::ostream& operator<<(std::ostream& out, const Item& item);
 };
 
-#endif
+#endif // ITEM_H
